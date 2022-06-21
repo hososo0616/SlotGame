@@ -37,6 +37,17 @@ main {
   user-select: none;
 }
 
+.scoreArea {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #3498db;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
 #spin {
   cursor: pointer;
   width: 280px;
@@ -60,3 +71,10 @@ main {
   opacity: 0.5;
 }
 
+.score {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+}
