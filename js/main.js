@@ -12,7 +12,7 @@
       this.timeoutId = undefined;
 
       this.stop = document.createElement("div");
-      this.stop.textContent = "STOP";
+      this.stop.textContent = "GO!!";
       this.stop.classList.add("stop", 'inactive');
       this.stop.addEventListener("click", () => {
         if (this.stop.classList.contains("inactive")) {
@@ -37,7 +37,7 @@
     }
 
     getRandomImage() {
-      const images = ["./img/seven.png", "./img/bell.png", "./img/cherry.png"];
+      const images = ["./img/seven.png", "./img/bell.png", "./img/cherry.png", "./img/suika.png"];
 
       return images[Math.floor(Math.random() * images.length)];
     }
